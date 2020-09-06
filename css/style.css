@@ -6,8 +6,7 @@ body{
 	background-color: #f4f4f4;
 	margin: 0;
 	padding: 0;
-	
-
+	box-sizing: border-box;
 }
 /* Global */
 .dark{
@@ -132,7 +131,6 @@ header a:hover{
 #boxes .box{
 	float: left;
 	width: 33%;
-	padding: 10px;
 	text-align: center;
 }
 #boxes .box img{
@@ -199,7 +197,7 @@ footer{
 		width: 100%;
 		margin-top: 5px;
 	}
-	#newsletter form input[type="email"], .quote input, .quote textarea: ;{
+	#newsletter form input[type="email"], .quote input, .quote textarea {
 		width: 100%;
 		margin-bottom: 5px;
 	}
