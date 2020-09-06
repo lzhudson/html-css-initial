@@ -1,0 +1,14 @@
+{
+  "name": "html-css-initial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lzhudson/html-css-initial.git",
+  "author": "Hudson Holanda <hudsonholanda55@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "live-server ./"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
